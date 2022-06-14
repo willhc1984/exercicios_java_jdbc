@@ -1,10 +1,10 @@
-package application;
+package testeJdbc;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import jdbc.DB;
+import db.DB;
 
 public class Update {
 

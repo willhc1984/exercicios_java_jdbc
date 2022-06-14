@@ -1,11 +1,11 @@
-package application;
+package testeJdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import jdbc.DB;
-import jdbc.DbException;
+import db.DB;
+import db.DbException;
 
 public class Transaction {
 

@@ -1,4 +1,4 @@
-package application;
+package testeJdbc;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 
 import com.mysql.jdbc.Statement;
 
-import jdbc.DB;
+import db.DB;
 
 public class Insert {
 

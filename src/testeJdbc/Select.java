@@ -1,11 +1,11 @@
-package application;
+package testeJdbc;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import jdbc.DB;
+import db.DB;
 
 public class Select {
 

@@ -1,11 +1,11 @@
-package application;
+package testeJdbc;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import jdbc.DB;
-import jdbc.DbIntegrityException;
+import db.DB;
+import db.DbIntegrityException;
 
 public class Delete {
 
