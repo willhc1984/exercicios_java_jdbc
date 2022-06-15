@@ -42,6 +42,9 @@ public class Test {
 		sellerDao.update(seller3);
 		System.out.println("Updated! Seller id = " + seller3.getId());
 		
+		System.out.println("\n***** Test 6 - Seller delete *******");
+		sellerDao.deleteById(9);
+		System.out.println("Delete!");
 	}
 
 }
