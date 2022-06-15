@@ -1,10 +1,11 @@
 package application;
 
-import java.util.Iterator;
+import java.util.Date;
 import java.util.List;
 
 import model.dao.DaoFactory;
 import model.dao.SellerDao;
+import model.dao.impl.SellerDaoJDBC;
 import model.entities.Department;
 import model.entities.Seller;
 
@@ -29,6 +30,11 @@ public class Test {
 		for(Seller s : list) {
 			System.out.println(s);
 		}
+		
+		System.out.println("\n***** Test 4 - Seller insert *******");
+		Seller seller2 = new Seller(null, "Anita", "anita@gmail", new Date(), 4000.00, department);
+		sellerDao.insert(seller2);
+		System.out.println("Inserted! New id = " + seller2.getId());
 		
 	}
 
